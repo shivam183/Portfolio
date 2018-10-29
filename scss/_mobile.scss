@@ -83,4 +83,8 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  body::after{
+    height: 250%;
+  }
 }
