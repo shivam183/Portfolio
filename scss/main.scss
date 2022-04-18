@@ -100,6 +100,11 @@ main {
     font-size: 1.5rem;
   }
 
+  .no-bullet {
+    list-style-type: none;
+    padding-bottom: 10px;
+  }
+
   .job1 {
     grid-area: job2;
   }
