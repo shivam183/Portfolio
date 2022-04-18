@@ -100,11 +100,6 @@ main {
     font-size: 1.5rem;
   }
 
-  .no-bullet {
-    list-style-type: none;
-    padding-bottom: 10px;
-  }
-
   .job1 {
     grid-area: job2;
   }
@@ -121,6 +116,11 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    .no-bullet {
+      list-style-type: none;
+      padding-bottom: 10px;
+    }
   }
 }
 
