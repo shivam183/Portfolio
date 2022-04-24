@@ -5,15 +5,22 @@ const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
 const footerYear = document.querySelector('.year')
+const experience = document.querySelector('.experience');
 
 //Inital State of menu
 let showMenu = false;
+let initialExperience = 1;
 
 menuBtn.addEventListener('click', toggleMenu);
 
-if (footerYear)
+if (footerYear != null)
 {
-  footerYear.innerHTML=new Date().getFullYear();
+  footerYear.innerHTML = new Date().getFullYear();
+}
+
+if (experience !=null)
+{
+  experience.innerHTML = new Date().getFullYear() - 2019;
 }
 
 function toggleMenu() {
