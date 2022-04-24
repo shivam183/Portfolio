@@ -11,7 +11,10 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
-footerYear.innerHTML=new Date().getFullYear()
+if (footerYear)
+{
+  footerYear.innerHTML=new Date().getFullYear();
+}
 
 function toggleMenu() {
   if (!showMenu) {
